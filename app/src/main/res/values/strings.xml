@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Employee Tracker</string>
+
+    <!-- strings for sign in  activity -->
+    <string name="email_sign_in">Email</string>
+    <string name="password_sign_in">Password</string>
+    <string name="btn_signin">SIGN IN</string>
+
+    <!--strings for employer dashboard activity-->
+    <string name="asign_task">Assign Task</string>
+    <string name="add_employer">Add Employee</string>
+    <string name="employer_location">Employees Location</string>
+    <string name="employer_profile">Profile</string>
+
+    <!-- strings for employer add employees activity -->
+    <string name="title">Add Employee</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="button_add">Add</string>
+
+    <!-- for employee assign task xml -->
+    <string name="card_title">Assign Task</string>
+    <string name="task_description">Task Description</string>
+    <string name="add_task">Add Task</string>
+
+    <!-- for activity_employee_dash_board.xml -->
+    <string name="tasks">Tasks</string>
+    <string name="task_location">Location</string>
+    <string name="tasks_description">Description</string>
+
+    <!-- for activity_view_employee_location.xml -->
+    <string name="activity_title">Employees Location</string>
+    <string name="activity_first_name">First Name</string>
+    <string name="activity_last_name">Last Name</string>
+    <string name="activity_task_label">Task:</string>
+    <string name="activity_task">Task</string>
+    <string name="activity_sent_location_label">Sent To:</string>
+    <string name="activity_sent_location">Sent To</string>
+    <string name="activity_current_Location">Current Location:</string>
+
+    <!-- for admin_drawer_menu.xml -->
+    <string name="logout">Log Out</string>
+    <string name="drawer_header_title">Admin</string>
+
+    <!-- for employee_drawer_menu.xml -->
+    <string name="employee_drawer_header_title">Employee</string>
+    <string name="drawer_profile">Profile</string>
+
+
+</resources>

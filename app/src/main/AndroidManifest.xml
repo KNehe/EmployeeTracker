@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nehemiah.employertracker">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVISES" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.hardware.location.network " />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.ViewEmployeeLocation"
+            android:parentActivityName=".admin_dashboard"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".admin_dashboard" />
+        <activity android:name=".Admin_add_employee"
+            android:parentActivityName=".admin_dashboard"/>
+        <activity android:name=".Admin.AsignTask"
+            android:parentActivityName=".admin_dashboard"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMHZnzvrQgzjaPEOzoG7Pw8IJhTWJi4AU" />
+
+        <activity android:name=".Employees.EmployeeDashBoard"
+            android:label="@string/tasks"/>
+    </application>
+
+</manifest>

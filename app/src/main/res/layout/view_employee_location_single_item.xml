@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:outlineAmbientShadowColor="@color/colorAccent"
+    app:cardBackgroundColor="#F7F2EF">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:id="@+id/linear_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableLeft="@drawable/name"
+            android:id="@+id/view_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/activity_first_name"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/view_first_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/activity_last_name"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawableLeft="@drawable/task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_task_label"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:id="@+id/task_label"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_task"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/task_label"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:id="@+id/view_task"/>
+
+    </RelativeLayout>
+   <!--location sent to-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawableLeft="@drawable/employer_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_sent_location_label"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:padding="2dp"
+            android:id="@+id/view_sent_location_label"/>
+
+        <TextView
+            android:id="@+id/view_sentTo_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/view_sent_location_label"
+            android:padding="2dp"
+            android:text="@string/activity_sent_location"
+            android:textColor="#000"
+            android:textSize="14sp"
+             />
+
+    </RelativeLayout>
+   <!--current Location-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:drawableLeft="@drawable/employer_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_current_Location"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:padding="8dp"
+            android:id="@+id/view_current_location_label"/>
+
+        <TextView
+            android:id="@+id/view_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/view_current_location_label"
+            android:padding="2dp"
+            android:text="@string/activity_current_Location"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

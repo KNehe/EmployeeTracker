@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AsignTask"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:text="@string/card_title"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+    <fragment
+        android:id="@+id/place_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/assign_task_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

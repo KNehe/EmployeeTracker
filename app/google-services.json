@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "832785013213",
+    "firebase_url": "https://employertracker-2f3b3.firebaseio.com",
+    "project_id": "employertracker-2f3b3",
+    "storage_bucket": "employertracker-2f3b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832785013213:android:045247cc58a80aee",
+        "android_client_info": {
+          "package_name": "com.example.nehemiah.employertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832785013213-bi6vufej3dvsb85pmg2it3ape6qs58uh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nehemiah.employertracker",
+            "certificate_hash": "27d94f8c00a28461076354d33b593eeefe71cfbf"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB75bm7QDJG-oTl5F4KYvhKgg_i2m64MhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832785013213-r8q8oun0tepfj0iqa08n2b7h9ic8saom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
